@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name ="suitename">
+    <test name="testname">
+
+        <classes>
+
+               <class  name="com.auto.testng.TestDemo">
+                   <method>
+                       <include name="right"/>
+                       <include name="wrong"/>
+                       <include name="logdemo"/>
+                   </method>
+               </class>
+        </classes>
+    </test>
+
+    //监听器
+    <liseners>
+
+        <lisener  class-name="com.auto.testng.ExtentTestNGiReportLisener"/>
+
+
+    </liseners>
+
+
+</suite>

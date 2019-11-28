@@ -1,0 +1,26 @@
+[
+
+
+  {
+
+    "description": "模拟一个带参数的post请求",
+    "request": {
+
+      "uri": "/post/with/param",
+      "method": "post",
+      "forms":{
+
+        "name": "大傻子",
+        "age": "18"
+
+      }
+    },
+    "response": {
+
+      "text": "这是一个带参数的post请求-大傻子来了",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]
